@@ -1,11 +1,12 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Chapter 5</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Chapter 5 </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content padding>
-  
   <p>
     "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
     praesentium voluptatum deleniti atque corrupti quos dolores et quas
@@ -18,9 +19,43 @@
     rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et
     molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
     delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-    perferendis doloribus asperiores repellat."
+    perferendis doloribus asperiores repellat." Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Proin rutrum ex vitae risus dictum, elementum
+    commodo nunc blandit. Sed eget nisl quis arcu varius ultricies. Sed vel
+    mauris rutrum, laoreet metus eget, sollicitudin magna. Nullam posuere
+    rhoncus blandit. Fusce finibus vitae nisl eget tempus. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Nullam ac turpis et nisi varius tempor.
+    Maecenas lacinia consequat lacus et scelerisque. Donec pharetra, eros in
+    ornare blandit, nulla elit dictum sem, sit amet semper massa tortor ac
+    augue. Donec id fringilla elit. Cras vel eros sed leo tincidunt pellentesque
+    vel et mi. Orci varius natoque penatibus et magnis dis parturient montes,
+    nascetur ridiculus mus. Curabitur a hendrerit enim. Etiam eros leo, egestas
+    a imperdiet vel, vestibulum vitae tellus. Proin fermentum neque ligula, vel
+    consequat libero blandit at. Mauris tristique velit ac aliquet maximus. Duis
+    malesuada orci id elementum feugiat. Nulla sodales libero sed sagittis
+    laoreet. Donec molestie tincidunt facilisis. Ut cursus magna dictum tellus
+    vehicula, quis ornare nulla lacinia. Vestibulum pellentesque risus in tellus
+    efficitur congue. Pellentesque placerat molestie consectetur. Suspendisse
+    quis diam et nisl maximus consequat vel eu erat. Nam ac consequat libero, id
+    egestas nisi. Sed iaculis lectus quis luctus placerat. Ut tempor, ipsum ac
+    tempor imperdiet, dolor odio ultricies lorem, bibendum egestas mi odio ac
+    eros.
   </p>
+
+  <img src="../../assets/Images/Canva - Silhouette Photo of a Vehicle.jpg" />
   <h3 class="pg">Pg 5</h3>
-  <ion-button color="success" expand="full" [routerDirection]="'root'" [routerLink]="['/chapter4']">Previous Page</ion-button>
-  <ion-button color="medium" expand="full" [routerDirection]="'root'" [routerLink]="['/toc']">Back to Table of Contents</ion-button>
+  <ion-button
+    color="secondary"
+    fill="outline"
+    [routerDirection]="'root'"
+    [routerLink]="['/chapter4']"
+    >Previous Page</ion-button
+  >
+  <ion-button
+    color="medium"
+    expand="full"
+    [routerDirection]="'root'"
+    [routerLink]="['/toc']"
+    >Back to Table of Contents</ion-button
+  >
 </ion-content>

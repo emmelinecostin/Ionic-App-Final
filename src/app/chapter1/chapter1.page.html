@@ -1,26 +1,45 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Chapter 1</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Chapter 1 </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  
   <p>
-    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-    praesentium voluptatum deleniti atque corrupti quos dolores et quas
-    molestias excepturi sint occaecati cupiditate non provident, similique sunt
-    in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-    fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-    tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
-    id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis
-    dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut
-    rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et
-    molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
-    delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-    perferendis doloribus asperiores repellat."
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+    sollicitudin rutrum feugiat. Nam pharetra pulvinar venenatis. Nulla
+    facilisi. Ut efficitur, mauris quis pulvinar ultrices, arcu ligula dapibus
+    massa, ac porta quam lacus eget nulla. Pellentesque blandit, risus ut
+    ultricies dignissim, ligula nisi auctor elit, vitae dapibus tellus orci non
+    tellus. Cras fermentum metus eget tristique laoreet. Donec in tincidunt
+    erat. Mauris imperdiet rutrum arcu eu tempus. 
+  </p>
+  <img src="../../assets/Images/Canva - Man Wearing Cap Walking Along Bridge.jpg"/>
+  <p>Fusce sit amet turpis
+    condimentum, tincidunt nunc sit amet, mollis turpis. Phasellus nec justo id
+    ex euismod facilisis. Nullam sit amet libero ut mauris pretium ultricies.
+    Cras cursus, nisi quis semper accumsan, augue tortor posuere est, vel
+    consequat elit erat in massa. Aliquam nec ipsum semper sem laoreet
+    ullamcorper. Pellentesque ut urna vel odio elementum dictum. Duis gravida
+    eget purus at condimentum. Nulla vel ornare sem. Pellentesque tempus magna
+    lacus, non venenatis ex gravida ut. Etiam posuere fringilla lacus vel
+    cursus.
   </p>
   <h3 class="pg">Pg 1</h3>
-  <ion-button color="success" expand="full" [routerDirection]="'root'" [routerLink]="['/chapter2']">Next Page</ion-button>
-  <ion-button color="medium" expand="full" [routerDirection]="'root'" [routerLink]="['/toc']">Back to Table of Contents</ion-button>
+  <ion-button
+    color="secondary"
+    [routerDirection]="'root'"
+    [routerLink]="['/chapter2']"
+    >Next Page</ion-button
+  >
+  <ion-button
+    color="medium"
+    expand="full"
+    [routerDirection]="'root'"
+    [routerLink]="['/toc']"
+    >Back to Table of Contents</ion-button
+  >
 </ion-content>

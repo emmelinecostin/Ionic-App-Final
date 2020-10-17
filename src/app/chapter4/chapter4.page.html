@@ -1,11 +1,16 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Chapter 4</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Chapter 4 </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  
+  <img
+    src="../../assets/Images/Canva - Back view Photo of Person Walking on Rocky Field.jpg"
+  />
   <p>
     "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
     praesentium voluptatum deleniti atque corrupti quos dolores et quas
@@ -20,8 +25,28 @@
     delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
     perferendis doloribus asperiores repellat."
   </p>
+  <img
+    src="../../assets/Images/Canva - White Truck Riding on Brown Sandy Surface during Daytime.jpg"
+  />
   <h3 class="pg">Pg 4</h3>
-  <ion-button color="success" expand="full" [routerDirection]="'root'" [routerLink]="['/chapter3']">Previous Page</ion-button>
-  <ion-button color="success" expand="full" [routerDirection]="'root'" [routerLink]="['/chapter5']">Next Page</ion-button>
-  <ion-button color="medium" expand="full" [routerDirection]="'root'" [routerLink]="['/toc']">Back to Table of Contents</ion-button>
+  <ion-button
+    color="secondary"
+    fill="outline"
+    [routerDirection]="'root'"
+    [routerLink]="['/chapter3']"
+    >Previous Page</ion-button
+  >
+  <ion-button
+    color="secondary"
+    [routerDirection]="'root'"
+    [routerLink]="['/chapter5']"
+    >Next Page</ion-button
+  >
+  <ion-button
+    color="medium"
+    expand="full"
+    [routerDirection]="'root'"
+    [routerLink]="['/toc']"
+    >Back to Table of Contents</ion-button
+  >
 </ion-content>
